@@ -1,0 +1,43 @@
+{
+  "name": "nad-prod-lecture-pbr-theory",
+  "version": "1.0.0",
+  "description": "Lecturing package to plan and access the reading",
+  "main": "index.js",
+  "jgwill": {
+    "disyn": {
+      "resources": {
+        "why": "this would be read by the CI and a dist would be created when pull merged on the Master",
+        "datas": [
+          {
+            "title": "Simple Note title",
+            "url": "http://someurl"
+          }
+        ]
+      }
+    }
+  },
+  "urirs": {
+    "sn": {
+      "publicurl": "http://simp.ly/p/5tsv3z"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "on": "npm run onenote",
+    "rn": "npm run afelia-rn",
+    "db": "npm run dropbox",
+    "sn": "npm run simplenote",
+    "src": "gixb https://marmoset.co/posts/basic-theory-of-physically-based-rendering/",
+    "dropbox": "gixb https://www.dropbox.com/s/jscer9hx1g3e3if/lecture-prod-pbr-theory-basic_theory_of_physically-based_rendering___marmoset.pdf?dl=0",
+    "simplenote": "gixb http://simp.ly/p/5tsv3z",
+    "afelia-rn": "gixb http://afelia.jgwill.com/rn/nad/prod-pbr-theory/lecture/190918/txt",
+    "onenote": "gixb https://onedrive.live.com/redir?resid=1942FF6D03D5B777%212357&page=Edit&wd=target%28DROP.one%7C1db22434-7b44-4e91-ad90-98a3cf160651%2FBasic%20Theory%20of%20Physically-Based%20Rendering%20%5C%7C%20Marmoset%7Cb197044d-de26-4694-9d24-8a898f83f967%2F%29"
+  },
+  "keywords": [
+    "rendering",
+    "pbr",
+    "physical-based-rendering"
+  ],
+  "author": "Jeff Russell",
+  "license": ""
+}
